@@ -103,6 +103,12 @@ ul {
   right: -10px;
 }
 
+@media (min-width: 48em) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
 .hamburger {
   display: block;
   position: relative;
@@ -145,6 +151,13 @@ ul {
   background-color: var(--clr-black);
 }
 
+@media (min-width: 48em) {
+  .nav {
+    position: initial;
+    transform: translate(0);
+  }
+}
+
 .nav__list {
   display: flex;
   flex-direction: column;
@@ -153,8 +166,22 @@ ul {
   height: 100%;
 }
 
+@media (min-width: 48em) {
+  .nav__list {
+    flex-direction: row;
+    height: initial;
+  }
+}
+
 .nav__item + .nav__item {
   margin-top: 2rem;
+}
+
+@media (min-width: 48em) {
+  .nav__item + .nav__item {
+    margin-top: 0;
+    margin-left: 5rem;
+  }
 }
 
 .nav__link {
@@ -168,6 +195,12 @@ ul {
 
 .main {
   margin-top: 3rem;
+}
+
+@media (min-width: 48em) {
+  .main {
+    margin-top: 8rem;
+  }
 }
 
 @media (min-width: 48em) {
