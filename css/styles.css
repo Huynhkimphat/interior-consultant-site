@@ -1,5 +1,10 @@
 :root {
   font-size: calc(0.5em + 1vw);
+
+  --clr-black: #181719;
+  --clr-white: #ffffff;
+  --clr-dark-gray: #828282;
+  --clr-light-gray: #a9a9a9;
 }
 
 *,
@@ -21,8 +26,23 @@ li {
 
 body {
   line-height: 1.5;
+  background-color: var(--clr-black);
+  color: var(--clr-white);
 }
 
 img {
   max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-white);
+}
+
+.person__profession {
+  color: var(--clr-dark-gray);
+}
+
+.footnote {
+  color: var(--clr-light-gray);
 }
