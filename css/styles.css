@@ -16,12 +16,9 @@
 body,
 p,
 h1,
+h2,
 ul {
   margin: 0;
-}
-
-li {
-  padding: 0;
 }
 
 body {
@@ -37,6 +34,15 @@ img {
 a {
   text-decoration: none;
   color: var(--clr-white);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.logo {
+  text-transform: uppercase;
 }
 
 .person__profession {
