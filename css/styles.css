@@ -33,6 +33,7 @@ body {
   line-height: 1.5;
   background-color: var(--clr-black);
   color: var(--clr-white);
+  padding: 1.2rem 0.75rem;
 }
 
 img {
@@ -49,11 +50,16 @@ ul {
   padding: 0;
 }
 
+.flow > * + * {
+  margin-top: 1.5rem;
+}
+
 .logo {
   text-transform: uppercase;
   font-family: 'Crimson Pro', serif;
   font-weight: var(--fw-extra-light);
   font-size: 0.875rem;
+  border: 1px solid var(--clr-white);
 }
 
 .nav__link {
@@ -79,6 +85,36 @@ ul {
 .read_more-link {
   font-weight: var(--fw-semi-bold);
   font-size: 1.125rem;
+  display: inline-block;
+}
+
+.arrow-icon {
+  margin-left: 0.9rem;
+}
+
+.banner__img-container {
+  margin-top: 2rem;
+}
+
+.caption {
+  background-color: var(--clr-black);
+  width: 18.75rem;
+  padding: 0.875rem 1.1875rem 1.5625rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.person {
+  display: flex;
+}
+
+.person__details {
+  margin-left: 1rem;
+}
+
+.person__img {
+  width: 3.875rem;
+  height: 3.875rem;
+  border-radius: 50%;
 }
 
 .person__name,
@@ -99,6 +135,14 @@ ul {
   font-family: 'Lora', serif;
   font-weight: var(--fw-bold);
   font-size: 1.5rem;
+  margin-top: 1.25rem;
+  width: 13rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
 }
 
 .footnote {
