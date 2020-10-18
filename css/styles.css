@@ -53,10 +53,12 @@ ul {
   text-transform: uppercase;
   font-family: 'Crimson Pro', serif;
   font-weight: var(--fw-extra-light);
+  font-size: 0.875rem;
 }
 
 .nav__link {
   font-weight: var(--fw-medium);
+  font-size: 1.125rem;
 }
 
 .nav__link.selected {
@@ -66,14 +68,17 @@ ul {
 .banner__title {
   font-family: 'Lora', serif;
   font-weight: var(--fw-regular);
+  font-size: 3rem;
 }
 
 .banner__description {
   font-weight: var(--fw-light);
+  font-size: 1.5rem;
 }
 
 .read_more-link {
   font-weight: var(--fw-semi-bold);
+  font-size: 1.125rem;
 }
 
 .person__name,
@@ -81,16 +86,23 @@ ul {
   font-weight: var(--fw-medium);
 }
 
+.person__name {
+  font-size: 0.875rem;
+}
+
 .person__profession {
   color: var(--clr-dark-gray);
+  font-size: 0.75rem;
 }
 
 .caption__title {
   font-family: 'Lora', serif;
   font-weight: var(--fw-bold);
+  font-size: 1.5rem;
 }
 
 .footnote {
   color: var(--clr-light-gray);
   font-weight: var(--fw-semi-bold);
+  font-size: 0.875rem;
 }
