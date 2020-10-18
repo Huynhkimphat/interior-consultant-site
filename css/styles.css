@@ -5,6 +5,13 @@
   --clr-white: #ffffff;
   --clr-dark-gray: #828282;
   --clr-light-gray: #a9a9a9;
+
+  --fw-extra-light: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
 }
 
 *,
@@ -22,6 +29,7 @@ ul {
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   background-color: var(--clr-black);
   color: var(--clr-white);
@@ -43,12 +51,46 @@ ul {
 
 .logo {
   text-transform: uppercase;
+  font-family: 'Crimson Pro', serif;
+  font-weight: var(--fw-extra-light);
+}
+
+.nav__link {
+  font-weight: var(--fw-medium);
+}
+
+.nav__link.selected {
+  font-weight: var(--fw-bold);
+}
+
+.banner__title {
+  font-family: 'Lora', serif;
+  font-weight: var(--fw-regular);
+}
+
+.banner__description {
+  font-weight: var(--fw-light);
+}
+
+.read_more-link {
+  font-weight: var(--fw-semi-bold);
+}
+
+.person__name,
+.person__profession {
+  font-weight: var(--fw-medium);
 }
 
 .person__profession {
   color: var(--clr-dark-gray);
 }
 
+.caption__title {
+  font-family: 'Lora', serif;
+  font-weight: var(--fw-bold);
+}
+
 .footnote {
   color: var(--clr-light-gray);
+  font-weight: var(--fw-semi-bold);
 }
